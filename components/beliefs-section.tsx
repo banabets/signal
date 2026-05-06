@@ -27,7 +27,7 @@ export function BeliefsSection() {
         alt="Our Beliefs"
         className="h-auto w-full"
       />
-      <div className="mt-5 flex justify-center">
+      <div className="mt-5 flex justify-center [&>a:not(:first-of-type)]:hidden">
         <a
           href={xUrl}
           target="_blank"
